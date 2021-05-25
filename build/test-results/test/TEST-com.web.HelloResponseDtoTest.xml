@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="com.web.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-25T05:09:11" hostname="webserver.mydomain.com" time="0.125">
   <properties/>
   <testcase name="lombok_test" classname="com.web.HelloResponseDtoTest" time="0.125"/>
+=======
+<testsuite name="com.web.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-25T04:56:00" hostname="Parkjongseok087" time="0.005">
+  <properties/>
+  <testcase name="lombok_test" classname="com.web.HelloResponseDtoTest" time="0.005"/>
+>>>>>>> 47761392870596facfb5d761482790fce7359fcc
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
