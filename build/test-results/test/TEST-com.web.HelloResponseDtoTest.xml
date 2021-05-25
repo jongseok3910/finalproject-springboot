@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testsuite name="com.web.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-22T11:06:27" hostname="webserver.localdomain" time="0.002">
+<testsuite name="com.web.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-25T04:54:01" hostname="webserver.mydomain.com" time="0.171">
   <properties/>
-  <testcase name="lombok_test" classname="com.web.HelloResponseDtoTest" time="0.002"/>
-=======
-<testsuite name="com.web.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-22T12:26:34" hostname="Parkjongseok087" time="0.004">
-  <properties/>
-  <testcase name="lombok_test" classname="com.web.HelloResponseDtoTest" time="0.004"/>
->>>>>>> 5f5b6888eaa031e07fee0412417b4ac7393e751c
+  <testcase name="lombok_test" classname="com.web.HelloResponseDtoTest" time="0.171"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
