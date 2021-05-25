@@ -12,9 +12,24 @@ cache:
     - '$HOME/.gradle'
 script: "./gradlew clean build"
 
+before_deploy:
+  - zip -r webserver.mydomain.com *
+  - mkdir -p deploy
+  - mv webserver.mydomain.com.zip deploy/webserver.mydomain.com.zip
+
+deploy:
+  - provider: s3
+    access_key_id: AKIAQQ4QREO7UZFE2DPY
+    secret_access_key: 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
+    bucket: finalproject-springboot-build
+    region: ap-northeast-2
+    skip_cleanup: true
+    acl: private # zip 파일접은을 private으로
+    local_dir: deploy # before_deploy에서 생성한 디렉토리
+    wait-until-deployed: true
+
 #CI 실행완료시 메일로 알람
 notifications:
   email:
     recipients:
       - jongseok3910@gmail.com
-  #
