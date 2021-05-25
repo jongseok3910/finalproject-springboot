@@ -13,9 +13,9 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r webserver.mydomain.com *
+  - zip -r webserver-mydomain-com *
   - mkdir -p deploy
-  - mv webserver.mydomain.com.zip deploy/webserver.mydomain.com.zip
+  - mv webserver-mydomain-com.zip deploy/webserver-mydomain-com.zip
 
 deploy:
   - provider: s3
