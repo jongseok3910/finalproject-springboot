@@ -28,6 +28,17 @@ deploy:
     local_dir: deploy # before_deploy에서 생성한 디렉토리
     wait-until-deployed: true
 
+  - provider: codedeploy
+    access_key_id: AKIAQQ4QREO7UZFE2DPY
+    secret_access_key: 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
+    bucket: finalproject-springboot-build
+    key: webserver-mydomain-com.zip
+    bundle_type: zip
+    application: finalproject-springboot
+    deployment_group: finalproject-springboot-group
+    region: ap-northeast-2
+    wait-until-deployed: true
+
 before_install:
   - chmod +x gradlew
 
