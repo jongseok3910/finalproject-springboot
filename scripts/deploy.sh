@@ -2,7 +2,6 @@
 REPOSITORY=/home/ec2-user/app/step2
 PROJECT_NAME=finalproject-springboot
 
-cd $REPOSITORY/$PROJECT_NAME/
 
 echo "> Build파일복사"
 
